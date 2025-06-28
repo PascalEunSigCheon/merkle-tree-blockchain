@@ -8,8 +8,35 @@
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
     </head>
     <body>
+        <header>
+            <h1>Merkle tree in blockchain</h1>
+        </header>
         <main>
-            Hello, world!
+            <div>
+                <p>Number of transitions: </p> 
+                <input id="ntrans" value="2500"/>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Without MT</th>
+                        <th>With MT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Number of files</th>
+                        <td><div id="without-mt-ntran"></div></td>
+                        <td><div id="with-mt-ntran"></div></td>
+                    </tr>
+                    <tr>
+                        <th>File size</th>
+                        <td><div id="without-mt-filesize"></div></td>
+                        <td><div id="with-mt-filesize"></div></td>
+                </tbody>
+            </table>
+
         </main>
         <script src="index.js"></script>
     </body>
