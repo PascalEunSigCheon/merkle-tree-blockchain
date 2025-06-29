@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+body {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+#insert-number {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+
+#ntrans {
+    height: 30px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#comp-table {
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    width: 700px;
+}
+
+#credit {
+    margin-top: 30px;
+    font-style: italic;
+}

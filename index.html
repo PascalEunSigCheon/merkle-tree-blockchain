@@ -12,11 +12,11 @@
             <h1>Merkle tree in blockchain</h1>
         </header>
         <main>
-            <div>
-                <p>Number of transitions: </p> 
+            <div id="insert-number">
+                <p># transactions: </p> 
                 <input id="ntrans" value="2500"/>
             </div>
-            <table>
+            <table id="comp-table">
                 <thead>
                     <tr>
                         <th></th>
@@ -26,7 +26,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Number of files</th>
+                        <th># files</th>
                         <td><div id="without-mt-ntran"></div></td>
                         <td><div id="with-mt-ntran"></div></td>
                     </tr>
@@ -36,6 +36,7 @@
                         <td><div id="with-mt-filesize"></div></td>
                 </tbody>
             </table>
+            <p id="credit">Open source app developed by Pascal Eun Sig Cheon.</p>
 
         </main>
         <script src="index.js"></script>
